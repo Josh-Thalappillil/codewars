@@ -7,8 +7,11 @@
 
 def hero(bullets, dragons):
     result = bullets / dragons
+    
     if result >= 2:
         return True
+    if bullets and dragons == 0:
+        return False
     else:
         return False
 
