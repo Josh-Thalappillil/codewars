@@ -14,6 +14,8 @@
 def are_you_playing_banjo(name):
     if name.startswith("R"):
         print(name + " plays banjo")
+    if name.startswith("r"):
+        print(name + " plays banjo")
     else:
         print(name + " does not play banjo")
 
