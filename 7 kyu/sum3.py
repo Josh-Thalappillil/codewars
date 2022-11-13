@@ -11,14 +11,17 @@
 
 # MY CODE:
 def get_sum(a, b):
-    if a != b:
-        total = sum(range(a, b))
+    if b > a:
+        total = sum(range(a, b + 1))
+        print(total)
+    elif b < a:
+        total = sum(range(b, a + 1))
         print(total)
     else:
         print(a)
 
-get_sum(0, 1)
+get_sum(1, 0)
 
-#SUGGESTED ANSWER
+
 
 
